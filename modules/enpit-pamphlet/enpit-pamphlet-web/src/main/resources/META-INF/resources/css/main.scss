@@ -1,3 +1,7 @@
+.root {
+position: relative
+}
+
 img.map{
 	width: calc(100% - 30px);
 	position:relative;
@@ -57,7 +61,8 @@ img.forest{
 	
 	.share {
 	color: #fff;
-	background: #009688;
+	border-radius: 10px;
+	background: #22a7f0;
 	margin: 15px 10px;
 	}
 	
@@ -71,15 +76,28 @@ img.forest{
 	
 	.timestamp {
 	text-align: right;
+	margin: 0 5px;
 	}
 	
+	.container {
+	height:100%;
+	}
+	
+	.ux-contents {
+	border: solid 1px #f0f0f0;
+	border-radius: 10px;
+	max-height: 400px;
+	overflow: auto;
+	
+	}
 	
 	.form-group {
 	display:flex;
+	margin-top: 15px;
 	}
 	
 	
-}
+
 
 img.map{
 	width: calc(100% - 30px);
